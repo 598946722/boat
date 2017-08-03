@@ -1,0 +1,180 @@
+
+*{margin: 0px;padding: 0px;}
+body html{height: 100%;}
+
+body{ background:url(../images/bg.jpg) center top no-repeat;
+	 overflow:hidden; 
+	 width:100%;
+	  height:100%; 
+	  position:absolute;
+	  font-family: "Georgia", Tahoma, Sans-Serif;
+}
+.cloud_01{
+	width: 147px;
+	height: 400px;
+	background: url('../images/cloud_01.png')no-repeat;
+	float: left;
+	z-index: 4;
+	position: absolute;
+	left: 195px;
+	top: -250px;
+	animation: cloud_01 3s linear 0s infinite normal;
+}
+@keyframes cloud_01{
+			0%{transform: translateY(0px);}
+			50%{transform: translateY(50px);}
+			100%{transform: translateY(0px);}
+		}
+.cloud_02{
+	width: 184px;
+	height: 400px;
+	background: url('../images/cloud_02.png')no-repeat;
+	float: left;
+	z-index: 5;
+	position: absolute;
+	left: 491px;
+	top: -120px;
+	animation: cloud_02 3s linear 0s infinite normal;
+}	
+@keyframes cloud_02{
+			0%{transform: translateY(0px);}
+			50%{transform: translateY(-80px);}
+			100%{transform: translateY(0px);}
+		}
+.cloud_03{
+	width: 228px;
+	height: 400px;
+	background: url('../images/cloud_03.png')no-repeat;
+	float: left;
+	z-index: 5;
+	position: absolute;
+	left: 905px;
+	top: -220px;
+	animation: cloud_03 3s linear 0s infinite normal;
+}
+@keyframes cloud_03{
+			0%{transform: translateY(0px);}
+			50%{transform: translateY(100px);}
+			100%{transform: translateY(0px);}
+		}	
+.cloud_04{
+	width: 135px;
+	height: 82px;
+	background: url('../images/cloud_04.png')no-repeat;
+	z-index: 4;
+	position: absolute;
+	top: 190px;
+	left: 1000px;
+	animation: cloud_04 45s linear 0s infinite normal;
+}	
+@keyframes cloud_04{
+			0%{transform: translateX(0px;);}
+			50%{transform: translateX(-1135px);}
+			100%{transform: translateX(0px);}
+		}
+.fish_01{
+	width: 235px;
+	height: 94px;
+	background: url('../images/fish_01.png')no-repeat;
+	z-index: 2;
+	position: absolute;
+	bottom: 20px;
+	left: 500px;
+	animation: fish_01 5s linear 2s infinite normal;
+}
+@keyframes fish_01{
+			0%{transform: rotate(0deg) }
+			40%{transform: translate(-200px, -250px) rotate(-40deg)}
+			100%{transform: translate(-800px, 150px) rotate(-70deg)}
+		}
+	
+.fish_02{
+	width: 228px;
+	height: 139px;
+	background: url('../images/fish_02.png')no-repeat;
+	z-index: 4;
+	position: absolute;
+	bottom: 20px;
+	left: 350px;
+	animation: fish_02 5s linear 0s infinite normal;
+}
+@keyframes fish_02{
+			0%{transform: rotate(0deg) }
+			40%{transform: translate(-150px, -150px) rotate(-40deg)}
+			100%{transform: translate(-400px, 150px) rotate(-100deg)}
+}
+
+.wave_01{
+	width:100%;
+	height:200px;
+	background: url('../images/wave_01.png')no-repeat;
+	z-index: 5;
+	position: absolute;
+	bottom: -50px;
+	animation: wave_01_03 3s linear 0s infinite normal;
+}
+.wave_03{
+	width:100%;
+	height:200px;
+	background: url('../images/wave_03.png')no-repeat;
+	z-index: 1;
+	position: absolute;
+	bottom: 40px;
+	animation: wave_01_03 3s linear 0s infinite normal;
+}
+@keyframes wave_01_03{
+			0%{transform: translateY(0px);}
+			50%{transform: translateY(-50px);}
+			100%{transform: translateY(0px);}
+		}
+.wave_02{
+	width:100%;
+	height:200px;
+	background: url('../images/wave_02.png')no-repeat;
+	z-index: 3;
+	position: absolute;
+	bottom: 50px;
+	animation: wave_02 3s linear 0s infinite normal;
+}
+@keyframes wave_02{
+			0%{transform: translateY(0px);}
+			50%{transform: translateY(50px);}
+			100%{transform: translateY(0px);}
+		}
+
+.ship{
+	width: 412px;
+	height: 409px;
+	background: url('../images/ship.png')no-repeat;
+	z-index: 2;
+	position: absolute;
+	left: 680px;
+	top: 170px;
+	animation: moonship 2s linear 0s infinite normal;
+}	
+.moon{
+	width: 150px;
+	height: 174px;
+	background: url('../images/moon.png')no-repeat;
+	z-index: 2;
+	position: absolute;
+	left: 270px;
+	top: 100px;
+	animation: moonship 2s linear 0s infinite normal;
+}	
+@keyframes moonship{
+			0%{transform: rotate(0deg);}
+			50%{transform: rotate(-20deg);}
+			100%{transform: translateY(0px);}
+}
+.Writing{
+	width: 600px;
+	height: 100px;
+	text-shadow:3px 3px 3px #000; 
+	font-size:20px; 
+	color:#fff;
+	position:absolute; 
+	right:100px; 
+	bottom:50px; 
+	z-index:6;
+}
